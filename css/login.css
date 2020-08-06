@@ -1,19 +1,19 @@
 body{
   font-family: Poppins;
   background-color: #FFFF;
-  border: 2px solid #lightblue;
+  border: 2px solid lightblue;
 }
 input[type=text], input[type=password] {
   width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 2px solid #lightblue;
+  border: 2px solid lightblue;
   box-sizing: border-box;
 }
 
 button {
-  background-color: #lightblue;
+  background-color: lightblue;
   color: black;
   padding: 14px 20px;
   margin: 8px 0;
