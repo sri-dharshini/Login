@@ -1,6 +1,7 @@
 body{
   font-family: Poppins;
   background-color: #FFFF;
+  border: 2px solid #lightblue;
 }
 input[type=text], input[type=password] {
   width: 70%;
