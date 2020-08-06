@@ -3,16 +3,16 @@ body{
   background-color: #96d9d7;
 }
 input[type=text], input[type=password] {
-  width: 100%;
+  width: 70%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid #lightblue;
   box-sizing: border-box;
 }
 
 button {
-  background-color: #47605f;
+  background-color: #lightblue;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
