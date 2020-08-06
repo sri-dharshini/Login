@@ -1,3 +1,4 @@
+
 <!DOCTYPE  html>
 <html>
 <head>
@@ -47,7 +48,7 @@
     }
    else
    {
-     alert("Error Password or Username")/*displays error message*/
+     document.getElementById("error").innerHTML = "Invalid Username/Password. Try Again!"/*displays error message*/
    }
   }
   </script>
@@ -56,6 +57,7 @@
  <body onload=get()>
 <div class="container">
  <form>
+      <div id="error" name="error"></div>
       <div class='name'>
       <label for="Username">Username</label>
       <input type="text" name="username" id="username" >
