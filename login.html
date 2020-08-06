@@ -38,8 +38,8 @@
       {
         let usernameencrypted = CryptoJS.AES.encrypt(form.username.value, "randompass");
         let passwordencrypted = CryptoJS.AES.encrypt(form.password.value, "randompass");
-        document.cookie = "username="+usernameencrypted+"; max-age=60;";
-        document.cookie = "password="+passwordencrypted+"; max-age=60;";
+        document.cookie = "username="+usernameencrypted+"; max-age=86400;";
+        document.cookie = "password="+passwordencrypted+"; max-age=86400;";
       }
       document.cookie = "user="+user;
       alert('Login Successful');
