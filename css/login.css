@@ -30,7 +30,7 @@ button:hover {
     color:red;
 }
 .container {
-
+  border: 2px solid lightblue;
   padding: 16px;
   width:500px;
   /* background-color: #96d9d7; */
