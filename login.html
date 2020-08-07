@@ -42,7 +42,7 @@
         document.cookie = "username="+usernameencrypted+"; max-age=86400;";
         document.cookie = "password="+passwordencrypted+"; max-age=86400;";
       }
-      document.cookie = "user="+user;
+      document.cookie = "user="+user+"; max-age=86400;";
       alert('Login Successful');
       window.location = 'target.html';/*opens the target page while Id & password matches*/
     }
